@@ -13,11 +13,11 @@ Author: Bo Peng (peng.707@buckeyemail.osu.edu)
 
 ## Environments
 
-- python 3.6
-- PyTorch (version: 1.0.0)
-- numpy (version: 1.15.0)
-- scipy (version: 1.1.0)
-- sklearn (version: 0.19.1)
+- python 3.7.3
+- PyTorch (version: 1.2.0)
+- numpy (version: 1.16.2)
+- scipy (version: 1.2.1)
+- sklearn (version: 0.20.3)
 
 
 ## Dataset and Data preprocessing:

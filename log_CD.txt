@@ -1,0 +1,681 @@
+INFO:__main__:2020-03-17 10:28:29
+INFO:__main__:Namespace(L=5, T=3, batch_size=4096, d=50, data='CDs', l2=0.001, learning_rate=0.001, n_iter=300, neg_samples=3, seed=1234, sets_of_neg_samples=50)
+INFO:__main__:Total training records:251785
+INFO:__main__:Negative sampling time: 1.1066675186157227s
+INFO:__main__:Epoch 1 [1.7 s]  loss=8375.0671
+INFO:__main__:Negative sampling time: 1.114842414855957s
+INFO:__main__:Epoch 2 [1.4 s]  loss=8106.2132
+INFO:__main__:Negative sampling time: 1.08659029006958s
+INFO:__main__:Epoch 3 [1.4 s]  loss=7107.7042
+INFO:__main__:Negative sampling time: 1.0876109600067139s
+INFO:__main__:Epoch 4 [1.4 s]  loss=5652.4342
+INFO:__main__:Negative sampling time: 1.0861060619354248s
+INFO:__main__:Epoch 5 [1.4 s]  loss=4650.5908
+INFO:__main__:Negative sampling time: 1.1247124671936035s
+INFO:__main__:Epoch 6 [1.5 s]  loss=3963.8906
+INFO:__main__:Negative sampling time: 1.0933923721313477s
+INFO:__main__:Epoch 7 [1.4 s]  loss=3419.5848
+INFO:__main__:Negative sampling time: 1.0932927131652832s
+INFO:__main__:Epoch 8 [1.4 s]  loss=3014.8864
+INFO:__main__:Negative sampling time: 1.099729061126709s
+INFO:__main__:Epoch 9 [1.4 s]  loss=2675.7820
+INFO:__main__:Negative sampling time: 1.088865041732788s
+INFO:__main__:Epoch 10 [1.4 s]  loss=2403.7610
+INFO:__main__:Negative sampling time: 1.1026701927185059s
+INFO:__main__:Epoch 11 [1.4 s]  loss=2180.0454
+INFO:__main__:Negative sampling time: 1.1032872200012207s
+INFO:__main__:Epoch 12 [1.4 s]  loss=1979.6243
+INFO:__main__:Negative sampling time: 1.1008777618408203s
+INFO:__main__:Epoch 13 [1.4 s]  loss=1822.4640
+INFO:__main__:Negative sampling time: 1.1002070903778076s
+INFO:__main__:Epoch 14 [1.4 s]  loss=1691.2446
+INFO:__main__:Negative sampling time: 1.137897253036499s
+INFO:__main__:Epoch 15 [1.5 s]  loss=1562.6417
+INFO:__main__:Negative sampling time: 1.1166772842407227s
+INFO:__main__:Epoch 16 [1.4 s]  loss=1466.6930
+INFO:__main__:Negative sampling time: 1.1175506114959717s
+INFO:__main__:Epoch 17 [1.4 s]  loss=1364.0212
+INFO:__main__:Negative sampling time: 1.098383903503418s
+INFO:__main__:Epoch 18 [1.4 s]  loss=1291.5682
+INFO:__main__:Negative sampling time: 1.1226563453674316s
+INFO:__main__:Epoch 19 [1.5 s]  loss=1204.1465
+INFO:__main__:Negative sampling time: 1.1174111366271973s
+INFO:__main__:Epoch 20 [1.5 s]  loss=1145.6623
+INFO:__main__:0.018965517241378852, 0.01602744546094266, 0.014410821799983979, 0.01328289936664366
+INFO:__main__:0.020190677735929606, 0.03343655176695714, 0.04433481242049426, 0.0537927415098856
+INFO:__main__:0.013403559699741966, 0.01380035965492182, 0.014466293707009581, 0.015000068668620508
+INFO:__main__:0.02020764320301225, 0.017742003810549346, 0.016273178221425186, 0.015209141660668083
+INFO:__main__:Evaluation time:14.997445583343506
+INFO:__main__:Negative sampling time: 1.111274242401123s
+INFO:__main__:Epoch 21 [1.5 s]  loss=1099.7482
+INFO:__main__:Negative sampling time: 1.1145670413970947s
+INFO:__main__:Epoch 22 [1.4 s]  loss=1045.5409
+INFO:__main__:Negative sampling time: 1.1109044551849365s
+INFO:__main__:Epoch 23 [1.4 s]  loss=989.9843
+INFO:__main__:Negative sampling time: 1.1043074131011963s
+INFO:__main__:Epoch 24 [1.4 s]  loss=947.5482
+INFO:__main__:Negative sampling time: 1.1030640602111816s
+INFO:__main__:Epoch 25 [1.4 s]  loss=897.3645
+INFO:__main__:Negative sampling time: 1.12015700340271s
+INFO:__main__:Epoch 26 [1.5 s]  loss=849.8574
+INFO:__main__:Negative sampling time: 1.107947826385498s
+INFO:__main__:Epoch 27 [1.4 s]  loss=820.4326
+INFO:__main__:Negative sampling time: 1.119950771331787s
+INFO:__main__:Epoch 28 [1.5 s]  loss=790.8466
+INFO:__main__:Negative sampling time: 1.1051719188690186s
+INFO:__main__:Epoch 29 [1.4 s]  loss=758.5374
+INFO:__main__:Negative sampling time: 1.1027817726135254s
+INFO:__main__:Epoch 30 [1.4 s]  loss=732.6466
+INFO:__main__:Negative sampling time: 1.0970375537872314s
+INFO:__main__:Epoch 31 [1.4 s]  loss=700.4559
+INFO:__main__:Negative sampling time: 1.1005730628967285s
+INFO:__main__:Epoch 32 [1.4 s]  loss=673.6702
+INFO:__main__:Negative sampling time: 1.09747314453125s
+INFO:__main__:Epoch 33 [1.4 s]  loss=661.0485
+INFO:__main__:Negative sampling time: 1.097818374633789s
+INFO:__main__:Epoch 34 [1.4 s]  loss=630.8808
+INFO:__main__:Negative sampling time: 1.096832036972046s
+INFO:__main__:Epoch 35 [1.4 s]  loss=609.0973
+INFO:__main__:Negative sampling time: 1.0972528457641602s
+INFO:__main__:Epoch 36 [1.4 s]  loss=595.4971
+INFO:__main__:Negative sampling time: 1.1106793880462646s
+INFO:__main__:Epoch 37 [1.4 s]  loss=574.4566
+INFO:__main__:Negative sampling time: 1.0986096858978271s
+INFO:__main__:Epoch 38 [1.5 s]  loss=551.8469
+INFO:__main__:Negative sampling time: 1.1533682346343994s
+INFO:__main__:Epoch 39 [1.5 s]  loss=543.9719
+INFO:__main__:Negative sampling time: 1.0935814380645752s
+INFO:__main__:Epoch 40 [1.4 s]  loss=528.0754
+INFO:__main__:0.02396199859253976, 0.01958714520290887, 0.017288294628195568, 0.015622800844476478
+INFO:__main__:0.02595296945266778, 0.041883863326581186, 0.054690425365089494, 0.06507368102383711
+INFO:__main__:0.017406820965934267, 0.017889876438451243, 0.01870538834993088, 0.019306384685331815
+INFO:__main__:0.025720530840029263, 0.02205040759513274, 0.01995010587708683, 0.018388211947012494
+INFO:__main__:Evaluation time:15.103442907333374
+INFO:__main__:Negative sampling time: 1.1237163543701172s
+INFO:__main__:Epoch 41 [1.5 s]  loss=505.0344
+INFO:__main__:Negative sampling time: 1.1053659915924072s
+INFO:__main__:Epoch 42 [1.4 s]  loss=498.6289
+INFO:__main__:Negative sampling time: 1.096343755722046s
+INFO:__main__:Epoch 43 [1.4 s]  loss=485.2748
+INFO:__main__:Negative sampling time: 1.0897603034973145s
+INFO:__main__:Epoch 44 [1.4 s]  loss=472.7483
+INFO:__main__:Negative sampling time: 1.0951387882232666s
+INFO:__main__:Epoch 45 [1.4 s]  loss=458.5398
+INFO:__main__:Negative sampling time: 1.0986342430114746s
+INFO:__main__:Epoch 46 [1.4 s]  loss=445.7039
+INFO:__main__:Negative sampling time: 1.1064183712005615s
+INFO:__main__:Epoch 47 [1.4 s]  loss=434.4757
+INFO:__main__:Negative sampling time: 1.097733497619629s
+INFO:__main__:Epoch 48 [1.4 s]  loss=420.5231
+INFO:__main__:Negative sampling time: 1.1226940155029297s
+INFO:__main__:Epoch 49 [1.5 s]  loss=415.8244
+INFO:__main__:Negative sampling time: 1.100309133529663s
+INFO:__main__:Epoch 50 [1.5 s]  loss=400.1496
+INFO:__main__:Negative sampling time: 1.0955586433410645s
+INFO:__main__:Epoch 51 [1.4 s]  loss=394.0336
+INFO:__main__:Negative sampling time: 1.1016058921813965s
+INFO:__main__:Epoch 52 [1.5 s]  loss=380.1160
+INFO:__main__:Negative sampling time: 1.1450636386871338s
+INFO:__main__:Epoch 53 [1.5 s]  loss=371.9309
+INFO:__main__:Negative sampling time: 1.1041984558105469s
+INFO:__main__:Epoch 54 [1.4 s]  loss=366.6082
+INFO:__main__:Negative sampling time: 1.088350772857666s
+INFO:__main__:Epoch 55 [1.4 s]  loss=361.9478
+INFO:__main__:Negative sampling time: 1.0982341766357422s
+INFO:__main__:Epoch 56 [1.4 s]  loss=349.8695
+INFO:__main__:Negative sampling time: 1.119323492050171s
+INFO:__main__:Epoch 57 [1.5 s]  loss=349.6325
+INFO:__main__:Negative sampling time: 1.1288411617279053s
+INFO:__main__:Epoch 58 [1.5 s]  loss=337.4543
+INFO:__main__:Negative sampling time: 1.1023435592651367s
+INFO:__main__:Epoch 59 [1.4 s]  loss=332.7657
+INFO:__main__:Negative sampling time: 1.1205406188964844s
+INFO:__main__:Epoch 60 [1.5 s]  loss=322.4230
+INFO:__main__:0.024900304949565265, 0.02058996012198008, 0.018027210884353155, 0.016599225897256327
+INFO:__main__:0.027686677509698242, 0.04484416563050528, 0.0579439205357656, 0.07021710980241883
+INFO:__main__:0.018695232882425004, 0.01944945430616187, 0.02035755640913269, 0.021142241674552517
+INFO:__main__:0.027030394335020833, 0.023301962862199075, 0.02096951450623918, 0.019520191994544446
+INFO:__main__:Evaluation time:15.14934229850769
+INFO:__main__:Negative sampling time: 1.1067500114440918s
+INFO:__main__:Epoch 61 [1.4 s]  loss=316.7255
+INFO:__main__:Negative sampling time: 1.0994408130645752s
+INFO:__main__:Epoch 62 [1.4 s]  loss=310.5619
+INFO:__main__:Negative sampling time: 1.1089704036712646s
+INFO:__main__:Epoch 63 [1.4 s]  loss=312.6685
+INFO:__main__:Negative sampling time: 1.10697340965271s
+INFO:__main__:Epoch 64 [1.4 s]  loss=306.4720
+INFO:__main__:Negative sampling time: 1.101104974746704s
+INFO:__main__:Epoch 65 [1.4 s]  loss=295.5506
+INFO:__main__:Negative sampling time: 1.1021411418914795s
+INFO:__main__:Epoch 66 [1.4 s]  loss=292.7940
+INFO:__main__:Negative sampling time: 1.120903491973877s
+INFO:__main__:Epoch 67 [1.5 s]  loss=289.6868
+INFO:__main__:Negative sampling time: 1.1124176979064941s
+INFO:__main__:Epoch 68 [1.4 s]  loss=279.3638
+INFO:__main__:Negative sampling time: 1.1034832000732422s
+INFO:__main__:Epoch 69 [1.4 s]  loss=276.6785
+INFO:__main__:Negative sampling time: 1.1036522388458252s
+INFO:__main__:Epoch 70 [1.4 s]  loss=269.9726
+INFO:__main__:Negative sampling time: 1.1372761726379395s
+INFO:__main__:Epoch 71 [1.5 s]  loss=271.5914
+INFO:__main__:Negative sampling time: 1.1231012344360352s
+INFO:__main__:Epoch 72 [1.5 s]  loss=261.8935
+INFO:__main__:Negative sampling time: 1.111618995666504s
+INFO:__main__:Epoch 73 [1.4 s]  loss=263.2204
+INFO:__main__:Negative sampling time: 1.1066370010375977s
+INFO:__main__:Epoch 74 [1.4 s]  loss=258.7660
+INFO:__main__:Negative sampling time: 1.1059503555297852s
+INFO:__main__:Epoch 75 [1.4 s]  loss=254.8165
+INFO:__main__:Negative sampling time: 1.1079378128051758s
+INFO:__main__:Epoch 76 [1.4 s]  loss=248.0053
+INFO:__main__:Negative sampling time: 1.1069409847259521s
+INFO:__main__:Epoch 77 [1.4 s]  loss=245.8409
+INFO:__main__:Negative sampling time: 1.116638422012329s
+INFO:__main__:Epoch 78 [1.5 s]  loss=240.4143
+INFO:__main__:Negative sampling time: 1.1044256687164307s
+INFO:__main__:Epoch 79 [1.4 s]  loss=239.3171
+INFO:__main__:Negative sampling time: 1.1322910785675049s
+INFO:__main__:Epoch 80 [1.5 s]  loss=237.8741
+INFO:__main__:0.026425052779731742, 0.021410978184377576, 0.01878176557979451, 0.016971616232700874
+INFO:__main__:0.029301219504213476, 0.04654543393504666, 0.06077961911206449, 0.07212601829868304
+INFO:__main__:0.019460522714833058, 0.02019312638620491, 0.02119288160161802, 0.021908780790696237
+INFO:__main__:0.02829633617739323, 0.024145092306505377, 0.02175783185587037, 0.020047438337670864
+INFO:__main__:Evaluation time:15.279510259628296
+INFO:__main__:Negative sampling time: 1.1435065269470215s
+INFO:__main__:Epoch 81 [1.5 s]  loss=236.1056
+INFO:__main__:Negative sampling time: 1.10768461227417s
+INFO:__main__:Epoch 82 [1.4 s]  loss=227.7911
+INFO:__main__:Negative sampling time: 1.090914249420166s
+INFO:__main__:Epoch 83 [1.4 s]  loss=224.6959
+INFO:__main__:Negative sampling time: 1.0862112045288086s
+INFO:__main__:Epoch 84 [1.4 s]  loss=223.7393
+INFO:__main__:Negative sampling time: 1.0917322635650635s
+INFO:__main__:Epoch 85 [1.4 s]  loss=220.1473
+INFO:__main__:Negative sampling time: 1.1303329467773438s
+INFO:__main__:Epoch 86 [1.5 s]  loss=216.4814
+INFO:__main__:Negative sampling time: 1.0977046489715576s
+INFO:__main__:Epoch 87 [1.4 s]  loss=213.7619
+INFO:__main__:Negative sampling time: 1.112884283065796s
+INFO:__main__:Epoch 88 [1.4 s]  loss=210.9296
+INFO:__main__:Negative sampling time: 1.1044130325317383s
+INFO:__main__:Epoch 89 [1.4 s]  loss=206.4036
+INFO:__main__:Negative sampling time: 1.1035642623901367s
+INFO:__main__:Epoch 90 [1.4 s]  loss=204.8606
+INFO:__main__:Negative sampling time: 1.0955290794372559s
+INFO:__main__:Epoch 91 [1.4 s]  loss=204.8835
+INFO:__main__:Negative sampling time: 1.1185736656188965s
+INFO:__main__:Epoch 92 [1.4 s]  loss=197.3538
+INFO:__main__:Negative sampling time: 1.0924642086029053s
+INFO:__main__:Epoch 93 [1.4 s]  loss=198.3397
+INFO:__main__:Negative sampling time: 1.0909593105316162s
+INFO:__main__:Epoch 94 [1.4 s]  loss=197.8756
+INFO:__main__:Negative sampling time: 1.0948359966278076s
+INFO:__main__:Epoch 95 [1.4 s]  loss=193.4464
+INFO:__main__:Negative sampling time: 1.090388536453247s
+INFO:__main__:Epoch 96 [1.4 s]  loss=191.7237
+INFO:__main__:Negative sampling time: 1.0916705131530762s
+INFO:__main__:Epoch 97 [1.4 s]  loss=186.7636
+INFO:__main__:Negative sampling time: 1.1262738704681396s
+INFO:__main__:Epoch 98 [1.5 s]  loss=190.5364
+INFO:__main__:Negative sampling time: 1.1074414253234863s
+INFO:__main__:Epoch 99 [1.4 s]  loss=187.2447
+INFO:__main__:Negative sampling time: 1.1041982173919678s
+INFO:__main__:Epoch 100 [1.4 s]  loss=183.8504
+INFO:__main__:0.026788646493079132, 0.021856673703964793, 0.01937211666275641, 0.01742610837438521
+INFO:__main__:0.030081479378913294, 0.04809728349035154, 0.06274459131538189, 0.0744505203442202
+INFO:__main__:0.019962467745718977, 0.02085165255557571, 0.021969036186190814, 0.022703380278328127
+INFO:__main__:0.028776552280315646, 0.024650040095021305, 0.022358098795794687, 0.02055479218680504
+INFO:__main__:Evaluation time:15.33948016166687
+INFO:__main__:Negative sampling time: 1.1041185855865479s
+INFO:__main__:Epoch 101 [1.4 s]  loss=183.4821
+INFO:__main__:Negative sampling time: 1.1003057956695557s
+INFO:__main__:Epoch 102 [1.4 s]  loss=183.0003
+INFO:__main__:Negative sampling time: 1.1203296184539795s
+INFO:__main__:Epoch 103 [1.4 s]  loss=178.5913
+INFO:__main__:Negative sampling time: 1.1851091384887695s
+INFO:__main__:Epoch 104 [1.5 s]  loss=178.0489
+INFO:__main__:Negative sampling time: 1.0970048904418945s
+INFO:__main__:Epoch 105 [1.4 s]  loss=178.8597
+INFO:__main__:Negative sampling time: 1.0996100902557373s
+INFO:__main__:Epoch 106 [1.4 s]  loss=174.7003
+INFO:__main__:Negative sampling time: 1.1034128665924072s
+INFO:__main__:Epoch 107 [1.4 s]  loss=170.5253
+INFO:__main__:Negative sampling time: 1.1032450199127197s
+INFO:__main__:Epoch 108 [1.4 s]  loss=172.6527
+INFO:__main__:Negative sampling time: 1.1163768768310547s
+INFO:__main__:Epoch 109 [1.4 s]  loss=170.4323
+INFO:__main__:Negative sampling time: 1.1019692420959473s
+INFO:__main__:Epoch 110 [1.4 s]  loss=166.1410
+INFO:__main__:Negative sampling time: 1.1024653911590576s
+INFO:__main__:Epoch 111 [1.4 s]  loss=169.1744
+INFO:__main__:Negative sampling time: 1.1030359268188477s
+INFO:__main__:Epoch 112 [1.4 s]  loss=167.1832
+INFO:__main__:Negative sampling time: 1.1058382987976074s
+INFO:__main__:Epoch 113 [1.4 s]  loss=168.0420
+INFO:__main__:Negative sampling time: 1.1035194396972656s
+INFO:__main__:Epoch 114 [1.4 s]  loss=162.5217
+INFO:__main__:Negative sampling time: 1.0991625785827637s
+INFO:__main__:Epoch 115 [1.4 s]  loss=165.6746
+INFO:__main__:Negative sampling time: 1.1022241115570068s
+INFO:__main__:Epoch 116 [1.4 s]  loss=162.4424
+INFO:__main__:Negative sampling time: 1.0991935729980469s
+INFO:__main__:Epoch 117 [1.4 s]  loss=157.7732
+INFO:__main__:Negative sampling time: 1.1086506843566895s
+INFO:__main__:Epoch 118 [1.4 s]  loss=159.1711
+INFO:__main__:Negative sampling time: 1.1044602394104004s
+INFO:__main__:Epoch 119 [1.4 s]  loss=159.1558
+INFO:__main__:Negative sampling time: 1.1027343273162842s
+INFO:__main__:Epoch 120 [1.4 s]  loss=154.2912
+INFO:__main__:0.027070138400186794, 0.022138165611072454, 0.0193408397841889, 0.017396786300728165
+INFO:__main__:0.030604011211717446, 0.0488319000891384, 0.06312962049088622, 0.07466377636815101
+INFO:__main__:0.020444848437459275, 0.021390534441593945, 0.022432745004568024, 0.02317318360339242
+INFO:__main__:0.029271772721982694, 0.025065250843552288, 0.022527665005104273, 0.020693216979392845
+INFO:__main__:Evaluation time:15.27902865409851
+INFO:__main__:Negative sampling time: 1.1036112308502197s
+INFO:__main__:Epoch 121 [1.4 s]  loss=155.6439
+INFO:__main__:Negative sampling time: 1.0991456508636475s
+INFO:__main__:Epoch 122 [1.4 s]  loss=150.5630
+INFO:__main__:Negative sampling time: 1.1028523445129395s
+INFO:__main__:Epoch 123 [1.4 s]  loss=150.7456
+INFO:__main__:Negative sampling time: 1.13938307762146s
+INFO:__main__:Epoch 124 [1.5 s]  loss=150.1646
+INFO:__main__:Negative sampling time: 1.1536734104156494s
+INFO:__main__:Epoch 125 [1.5 s]  loss=150.3676
+INFO:__main__:Negative sampling time: 1.1592292785644531s
+INFO:__main__:Epoch 126 [1.5 s]  loss=149.0017
+INFO:__main__:Negative sampling time: 1.103740930557251s
+INFO:__main__:Epoch 127 [1.4 s]  loss=151.1385
+INFO:__main__:Negative sampling time: 1.0996415615081787s
+INFO:__main__:Epoch 128 [1.4 s]  loss=147.9278
+INFO:__main__:Negative sampling time: 1.0967621803283691s
+INFO:__main__:Epoch 129 [1.4 s]  loss=146.9304
+INFO:__main__:Negative sampling time: 1.1003310680389404s
+INFO:__main__:Epoch 130 [1.4 s]  loss=144.8868
+INFO:__main__:Negative sampling time: 1.1005499362945557s
+INFO:__main__:Epoch 131 [1.4 s]  loss=142.8374
+INFO:__main__:Negative sampling time: 1.1158647537231445s
+INFO:__main__:Epoch 132 [1.4 s]  loss=142.5708
+INFO:__main__:Negative sampling time: 1.0998659133911133s
+INFO:__main__:Epoch 133 [1.4 s]  loss=143.3097
+INFO:__main__:Negative sampling time: 1.0998315811157227s
+INFO:__main__:Epoch 134 [1.4 s]  loss=140.6489
+INFO:__main__:Negative sampling time: 1.1247341632843018s
+INFO:__main__:Epoch 135 [1.5 s]  loss=138.5679
+INFO:__main__:Negative sampling time: 1.089571475982666s
+INFO:__main__:Epoch 136 [1.4 s]  loss=138.0835
+INFO:__main__:Negative sampling time: 1.0838205814361572s
+INFO:__main__:Epoch 137 [1.4 s]  loss=138.6759
+INFO:__main__:Negative sampling time: 1.0976958274841309s
+INFO:__main__:Epoch 138 [1.4 s]  loss=138.2575
+INFO:__main__:Negative sampling time: 1.0899031162261963s
+INFO:__main__:Epoch 139 [1.4 s]  loss=139.3794
+INFO:__main__:Negative sampling time: 1.1110320091247559s
+INFO:__main__:Epoch 140 [1.4 s]  loss=133.5812
+INFO:__main__:0.027351630307294438, 0.022208538587849366, 0.019434670419891432, 0.017338142153414015
+INFO:__main__:0.03123535922837245, 0.04942625231814895, 0.06384983138648306, 0.07475357044053134
+INFO:__main__:0.021038099147705065, 0.02199093179780231, 0.023117724500144654, 0.023816838203586356
+INFO:__main__:0.029801630037064635, 0.02536030430805996, 0.022789343255222125, 0.020826816129413353
+INFO:__main__:Evaluation time:15.496516704559326
+INFO:__main__:Negative sampling time: 1.0917229652404785s
+INFO:__main__:Epoch 141 [1.4 s]  loss=135.2724
+INFO:__main__:Negative sampling time: 1.110966444015503s
+INFO:__main__:Epoch 142 [1.4 s]  loss=131.6856
+INFO:__main__:Negative sampling time: 1.0898621082305908s
+INFO:__main__:Epoch 143 [1.4 s]  loss=132.5430
+INFO:__main__:Negative sampling time: 1.0970370769500732s
+INFO:__main__:Epoch 144 [1.4 s]  loss=136.1101
+INFO:__main__:Negative sampling time: 1.0920689105987549s
+INFO:__main__:Epoch 145 [1.4 s]  loss=133.0253
+INFO:__main__:Negative sampling time: 1.11045503616333s
+INFO:__main__:Epoch 146 [1.4 s]  loss=133.6017
+INFO:__main__:Negative sampling time: 1.09682035446167s
+INFO:__main__:Epoch 147 [1.4 s]  loss=130.4248
+INFO:__main__:Negative sampling time: 1.0910794734954834s
+INFO:__main__:Epoch 148 [1.4 s]  loss=131.3766
+INFO:__main__:Negative sampling time: 1.113703966140747s
+INFO:__main__:Epoch 149 [1.4 s]  loss=130.7172
+INFO:__main__:Negative sampling time: 1.1235260963439941s
+INFO:__main__:Epoch 150 [1.5 s]  loss=127.7756
+INFO:__main__:Negative sampling time: 1.0966987609863281s
+INFO:__main__:Epoch 151 [1.4 s]  loss=129.8320
+INFO:__main__:Negative sampling time: 1.0990753173828125s
+INFO:__main__:Epoch 152 [1.4 s]  loss=127.4377
+INFO:__main__:Negative sampling time: 1.0970404148101807s
+INFO:__main__:Epoch 153 [1.4 s]  loss=124.8291
+INFO:__main__:Negative sampling time: 1.1127727031707764s
+INFO:__main__:Epoch 154 [1.4 s]  loss=126.0863
+INFO:__main__:Negative sampling time: 1.100027084350586s
+INFO:__main__:Epoch 155 [1.4 s]  loss=125.2382
+INFO:__main__:Negative sampling time: 1.1119685173034668s
+INFO:__main__:Epoch 156 [1.5 s]  loss=125.5483
+INFO:__main__:Negative sampling time: 1.1348509788513184s
+INFO:__main__:Epoch 157 [1.5 s]  loss=121.0470
+INFO:__main__:Negative sampling time: 1.1047847270965576s
+INFO:__main__:Epoch 158 [1.4 s]  loss=123.4796
+INFO:__main__:Negative sampling time: 1.1017837524414062s
+INFO:__main__:Epoch 159 [1.4 s]  loss=123.1103
+INFO:__main__:Negative sampling time: 1.1020400524139404s
+INFO:__main__:Epoch 160 [1.4 s]  loss=123.9711
+INFO:__main__:0.027257799671591892, 0.02221440300258083, 0.019340839784188886, 0.017590311986864688
+INFO:__main__:0.03137197433769086, 0.049196189716342244, 0.062757605906511, 0.07514258401785752
+INFO:__main__:0.02102713595016551, 0.021918594375070294, 0.02293893679266313, 0.023764682731931327
+INFO:__main__:0.029778758869608454, 0.0253867006010159, 0.022738430545182348, 0.020998038587508185
+INFO:__main__:Evaluation time:15.341557264328003
+INFO:__main__:Negative sampling time: 1.0977168083190918s
+INFO:__main__:Epoch 161 [1.5 s]  loss=121.6728
+INFO:__main__:Negative sampling time: 1.1043975353240967s
+INFO:__main__:Epoch 162 [1.4 s]  loss=123.6524
+INFO:__main__:Negative sampling time: 1.1036996841430664s
+INFO:__main__:Epoch 163 [1.4 s]  loss=121.8616
+INFO:__main__:Negative sampling time: 1.1033856868743896s
+INFO:__main__:Epoch 164 [1.4 s]  loss=125.6148
+INFO:__main__:Negative sampling time: 1.102679967880249s
+INFO:__main__:Epoch 165 [1.4 s]  loss=120.2577
+INFO:__main__:Negative sampling time: 1.1014549732208252s
+INFO:__main__:Epoch 166 [1.4 s]  loss=120.2771
+INFO:__main__:Negative sampling time: 1.1147751808166504s
+INFO:__main__:Epoch 167 [1.4 s]  loss=115.8266
+INFO:__main__:Negative sampling time: 1.0944416522979736s
+INFO:__main__:Epoch 168 [1.4 s]  loss=123.8050
+INFO:__main__:Negative sampling time: 1.0964367389678955s
+INFO:__main__:Epoch 169 [1.4 s]  loss=117.5678
+INFO:__main__:Negative sampling time: 1.1129658222198486s
+INFO:__main__:Epoch 170 [1.4 s]  loss=115.8248
+INFO:__main__:Negative sampling time: 1.1088237762451172s
+INFO:__main__:Epoch 171 [1.5 s]  loss=116.2840
+INFO:__main__:Negative sampling time: 1.1137237548828125s
+INFO:__main__:Epoch 172 [1.4 s]  loss=117.4733
+INFO:__main__:Negative sampling time: 1.1424694061279297s
+INFO:__main__:Epoch 173 [1.5 s]  loss=114.9392
+INFO:__main__:Negative sampling time: 1.0943348407745361s
+INFO:__main__:Epoch 174 [1.4 s]  loss=114.8247
+INFO:__main__:Negative sampling time: 1.0982465744018555s
+INFO:__main__:Epoch 175 [1.4 s]  loss=115.8663
+INFO:__main__:Negative sampling time: 1.1026158332824707s
+INFO:__main__:Epoch 176 [1.4 s]  loss=116.6664
+INFO:__main__:Negative sampling time: 1.1163365840911865s
+INFO:__main__:Epoch 177 [1.5 s]  loss=113.1093
+INFO:__main__:Negative sampling time: 1.1167662143707275s
+INFO:__main__:Epoch 178 [1.4 s]  loss=117.3844
+INFO:__main__:Negative sampling time: 1.099588394165039s
+INFO:__main__:Epoch 179 [1.4 s]  loss=117.4807
+INFO:__main__:Negative sampling time: 1.1262929439544678s
+INFO:__main__:Epoch 180 [1.5 s]  loss=114.6847
+INFO:__main__:0.027163969035889333, 0.022402064273985948, 0.019532410665414925, 0.017695871452030082
+INFO:__main__:0.03128856950955418, 0.049760826541087266, 0.0640199111168682, 0.07622808666601907
+INFO:__main__:0.02086144994396226, 0.021939818294456206, 0.023012038716071662, 0.023821957652708226
+INFO:__main__:0.029484205959760815, 0.025350517709815588, 0.022758086713230662, 0.020990747049120802
+INFO:__main__:Evaluation time:15.308440685272217
+INFO:__main__:Negative sampling time: 1.1093533039093018s
+INFO:__main__:Epoch 181 [1.5 s]  loss=114.7662
+INFO:__main__:Negative sampling time: 1.1066734790802002s
+INFO:__main__:Epoch 182 [1.4 s]  loss=111.9980
+INFO:__main__:Negative sampling time: 1.130319356918335s
+INFO:__main__:Epoch 183 [1.5 s]  loss=108.1257
+INFO:__main__:Negative sampling time: 1.1040821075439453s
+INFO:__main__:Epoch 184 [1.4 s]  loss=114.0855
+INFO:__main__:Negative sampling time: 1.1075267791748047s
+INFO:__main__:Epoch 185 [1.4 s]  loss=110.7031
+INFO:__main__:Negative sampling time: 1.1068801879882812s
+INFO:__main__:Epoch 186 [1.4 s]  loss=109.7779
+INFO:__main__:Negative sampling time: 1.100318431854248s
+INFO:__main__:Epoch 187 [1.4 s]  loss=108.8878
+INFO:__main__:Negative sampling time: 1.1085669994354248s
+INFO:__main__:Epoch 188 [1.4 s]  loss=106.9636
+INFO:__main__:Negative sampling time: 1.0940806865692139s
+INFO:__main__:Epoch 189 [1.4 s]  loss=107.7943
+INFO:__main__:Negative sampling time: 1.090179204940796s
+INFO:__main__:Epoch 190 [1.4 s]  loss=107.7049
+INFO:__main__:Negative sampling time: 1.1033523082733154s
+INFO:__main__:Epoch 191 [1.4 s]  loss=110.3007
+INFO:__main__:Negative sampling time: 1.092682123184204s
+INFO:__main__:Epoch 192 [1.4 s]  loss=104.5932
+INFO:__main__:Negative sampling time: 1.0880656242370605s
+INFO:__main__:Epoch 193 [1.4 s]  loss=108.0702
+INFO:__main__:Negative sampling time: 1.096480131149292s
+INFO:__main__:Epoch 194 [1.4 s]  loss=110.6270
+INFO:__main__:Negative sampling time: 1.1103880405426025s
+INFO:__main__:Epoch 195 [1.4 s]  loss=109.6055
+INFO:__main__:Negative sampling time: 1.0966320037841797s
+INFO:__main__:Epoch 196 [1.4 s]  loss=105.6534
+INFO:__main__:Negative sampling time: 1.0981154441833496s
+INFO:__main__:Epoch 197 [1.4 s]  loss=108.8862
+INFO:__main__:Negative sampling time: 1.0933992862701416s
+INFO:__main__:Epoch 198 [1.4 s]  loss=107.8023
+INFO:__main__:Negative sampling time: 1.0890734195709229s
+INFO:__main__:Epoch 199 [1.4 s]  loss=109.2835
+INFO:__main__:Negative sampling time: 1.1086702346801758s
+INFO:__main__:Epoch 200 [1.4 s]  loss=108.0023
+INFO:__main__:0.027785596997418754, 0.022501759324419952, 0.01950504339666835, 0.01768414262256728
+INFO:__main__:0.032006971176631045, 0.05016337510928382, 0.06404401533574433, 0.07630736107319357
+INFO:__main__:0.02140851838819819, 0.022417409474063208, 0.023458099661202627, 0.02429026304156405
+INFO:__main__:0.03021956660370773, 0.02569843831743608, 0.02296713507125575, 0.021171096756338097
+INFO:__main__:Evaluation time:15.324597120285034
+INFO:__main__:Negative sampling time: 1.1079185009002686s
+INFO:__main__:Epoch 201 [1.4 s]  loss=105.2076
+INFO:__main__:Negative sampling time: 1.1038763523101807s
+INFO:__main__:Epoch 202 [1.4 s]  loss=104.2922
+INFO:__main__:Negative sampling time: 1.1048953533172607s
+INFO:__main__:Epoch 203 [1.4 s]  loss=105.9350
+INFO:__main__:Negative sampling time: 1.1045362949371338s
+INFO:__main__:Epoch 204 [1.4 s]  loss=105.1896
+INFO:__main__:Negative sampling time: 1.1109662055969238s
+INFO:__main__:Epoch 205 [1.4 s]  loss=103.8230
+INFO:__main__:Negative sampling time: 1.101982593536377s
+INFO:__main__:Epoch 206 [1.4 s]  loss=105.2770
+INFO:__main__:Negative sampling time: 1.1063783168792725s
+INFO:__main__:Epoch 207 [1.4 s]  loss=103.6220
+INFO:__main__:Negative sampling time: 1.1079065799713135s
+INFO:__main__:Epoch 208 [1.5 s]  loss=105.3556
+INFO:__main__:Negative sampling time: 1.1270413398742676s
+INFO:__main__:Epoch 209 [1.5 s]  loss=104.1793
+INFO:__main__:Negative sampling time: 1.1091156005859375s
+INFO:__main__:Epoch 210 [1.4 s]  loss=101.9320
+INFO:__main__:Negative sampling time: 1.1245663166046143s
+INFO:__main__:Epoch 211 [1.5 s]  loss=103.8995
+INFO:__main__:Negative sampling time: 1.1173748970031738s
+INFO:__main__:Epoch 212 [1.5 s]  loss=104.6007
+INFO:__main__:Negative sampling time: 1.1051244735717773s
+INFO:__main__:Epoch 213 [1.4 s]  loss=104.3513
+INFO:__main__:Negative sampling time: 1.1226606369018555s
+INFO:__main__:Epoch 214 [1.5 s]  loss=101.0275
+INFO:__main__:Negative sampling time: 1.1049799919128418s
+INFO:__main__:Epoch 215 [1.4 s]  loss=101.6000
+INFO:__main__:Negative sampling time: 1.1086666584014893s
+INFO:__main__:Epoch 216 [1.4 s]  loss=103.7597
+INFO:__main__:Negative sampling time: 1.134763479232788s
+INFO:__main__:Epoch 217 [1.5 s]  loss=103.6698
+INFO:__main__:Negative sampling time: 1.1281206607818604s
+INFO:__main__:Epoch 218 [1.5 s]  loss=102.3434
+INFO:__main__:Negative sampling time: 1.1190941333770752s
+INFO:__main__:Epoch 219 [1.4 s]  loss=101.7388
+INFO:__main__:Negative sampling time: 1.1070945262908936s
+INFO:__main__:Epoch 220 [1.4 s]  loss=101.8413
+INFO:__main__:0.02803190241613797, 0.022407928688717327, 0.019645789350222185, 0.017739854562515686
+INFO:__main__:0.03225380814049709, 0.04979842611312514, 0.06443566377259057, 0.07679165900110774
+INFO:__main__:0.02200364245314984, 0.02284874303236903, 0.023972625280495093, 0.024770517308096384
+INFO:__main__:0.03074368124642186, 0.025877116309576866, 0.023239393716481243, 0.021362021116826918
+INFO:__main__:Evaluation time:15.356323480606079
+INFO:__main__:Negative sampling time: 1.102461814880371s
+INFO:__main__:Epoch 221 [1.4 s]  loss=96.9336
+INFO:__main__:Negative sampling time: 1.1103599071502686s
+INFO:__main__:Epoch 222 [1.4 s]  loss=100.3228
+INFO:__main__:Negative sampling time: 1.1050188541412354s
+INFO:__main__:Epoch 223 [1.4 s]  loss=99.4047
+INFO:__main__:Negative sampling time: 1.114220142364502s
+INFO:__main__:Epoch 224 [1.5 s]  loss=99.5117
+INFO:__main__:Negative sampling time: 1.1003687381744385s
+INFO:__main__:Epoch 225 [1.4 s]  loss=99.3259
+INFO:__main__:Negative sampling time: 1.1020374298095703s
+INFO:__main__:Epoch 226 [1.4 s]  loss=101.3017
+INFO:__main__:Negative sampling time: 1.0980942249298096s
+INFO:__main__:Epoch 227 [1.4 s]  loss=98.1417
+INFO:__main__:Negative sampling time: 1.1017522811889648s
+INFO:__main__:Epoch 228 [1.4 s]  loss=98.1119
+INFO:__main__:Negative sampling time: 1.1086547374725342s
+INFO:__main__:Epoch 229 [1.4 s]  loss=96.1069
+INFO:__main__:Negative sampling time: 1.098390817642212s
+INFO:__main__:Epoch 230 [1.4 s]  loss=99.3978
+INFO:__main__:Negative sampling time: 1.1033849716186523s
+INFO:__main__:Epoch 231 [1.4 s]  loss=99.9439
+INFO:__main__:Negative sampling time: 1.143843412399292s
+INFO:__main__:Epoch 232 [1.5 s]  loss=98.5609
+INFO:__main__:Negative sampling time: 1.1005237102508545s
+INFO:__main__:Epoch 233 [1.4 s]  loss=98.3672
+INFO:__main__:Negative sampling time: 1.100447177886963s
+INFO:__main__:Epoch 234 [1.4 s]  loss=98.7273
+INFO:__main__:Negative sampling time: 1.1026055812835693s
+INFO:__main__:Epoch 235 [1.4 s]  loss=93.9968
+INFO:__main__:Negative sampling time: 1.1052861213684082s
+INFO:__main__:Epoch 236 [1.5 s]  loss=96.8820
+INFO:__main__:Negative sampling time: 1.1057045459747314s
+INFO:__main__:Epoch 237 [1.4 s]  loss=96.0022
+INFO:__main__:Negative sampling time: 1.1062304973602295s
+INFO:__main__:Epoch 238 [1.4 s]  loss=96.5109
+INFO:__main__:Negative sampling time: 1.1074018478393555s
+INFO:__main__:Epoch 239 [1.4 s]  loss=96.1529
+INFO:__main__:Negative sampling time: 1.121694564819336s
+INFO:__main__:Epoch 240 [1.5 s]  loss=98.1770
+INFO:__main__:0.028125733051840508, 0.02266596293689942, 0.019720071936820037, 0.017833685198218246
+INFO:__main__:0.032056469597198455, 0.0502896436620914, 0.0646866323230833, 0.07704079084207713
+INFO:__main__:0.02185797690723799, 0.02276191708655817, 0.0238328444467599, 0.024646188362472527
+INFO:__main__:0.03078060255656142, 0.026049344326937198, 0.023309789562211438, 0.02144728463948842
+INFO:__main__:Evaluation time:15.405685901641846
+INFO:__main__:Negative sampling time: 1.113387107849121s
+INFO:__main__:Epoch 241 [1.4 s]  loss=98.5231
+INFO:__main__:Negative sampling time: 1.101039171218872s
+INFO:__main__:Epoch 242 [1.5 s]  loss=94.8175
+INFO:__main__:Negative sampling time: 1.1019253730773926s
+INFO:__main__:Epoch 243 [1.4 s]  loss=95.2800
+INFO:__main__:Negative sampling time: 1.1175990104675293s
+INFO:__main__:Epoch 244 [1.4 s]  loss=90.9446
+INFO:__main__:Negative sampling time: 1.127443552017212s
+INFO:__main__:Epoch 245 [1.5 s]  loss=95.5080
+INFO:__main__:Negative sampling time: 1.1067957878112793s
+INFO:__main__:Epoch 246 [1.4 s]  loss=98.3786
+INFO:__main__:Negative sampling time: 1.0946223735809326s
+INFO:__main__:Epoch 247 [1.4 s]  loss=95.3245
+INFO:__main__:Negative sampling time: 1.0956683158874512s
+INFO:__main__:Epoch 248 [1.4 s]  loss=95.4472
+INFO:__main__:Negative sampling time: 1.0932941436767578s
+INFO:__main__:Epoch 249 [1.4 s]  loss=94.2555
+INFO:__main__:Negative sampling time: 1.096864938735962s
+INFO:__main__:Epoch 250 [1.4 s]  loss=92.4817
+INFO:__main__:Negative sampling time: 1.097759485244751s
+INFO:__main__:Epoch 251 [1.4 s]  loss=94.0240
+INFO:__main__:Negative sampling time: 1.0937113761901855s
+INFO:__main__:Epoch 252 [1.4 s]  loss=94.1207
+INFO:__main__:Negative sampling time: 1.1078839302062988s
+INFO:__main__:Epoch 253 [1.5 s]  loss=93.0694
+INFO:__main__:Negative sampling time: 1.1013622283935547s
+INFO:__main__:Epoch 254 [1.4 s]  loss=90.0117
+INFO:__main__:Negative sampling time: 1.11134934425354s
+INFO:__main__:Epoch 255 [1.4 s]  loss=94.6402
+INFO:__main__:Negative sampling time: 1.097557783126831s
+INFO:__main__:Epoch 256 [1.4 s]  loss=94.1356
+INFO:__main__:Negative sampling time: 1.1062896251678467s
+INFO:__main__:Epoch 257 [1.5 s]  loss=94.4162
+INFO:__main__:Negative sampling time: 1.093001127243042s
+INFO:__main__:Epoch 258 [1.4 s]  loss=95.3612
+INFO:__main__:Negative sampling time: 1.1031064987182617s
+INFO:__main__:Epoch 259 [1.4 s]  loss=93.1008
+INFO:__main__:Negative sampling time: 1.1077690124511719s
+INFO:__main__:Epoch 260 [1.4 s]  loss=91.6424
+INFO:__main__:0.02839549612948533, 0.023129251700680864, 0.020040659942137082, 0.017971498944406385
+INFO:__main__:0.03257005999236861, 0.05153321740181297, 0.06575381515100664, 0.07771412450463837
+INFO:__main__:0.021868760914327417, 0.022965549090071556, 0.02403997250947319, 0.024823594599012636
+INFO:__main__:0.030856334729303526, 0.02633501472490131, 0.02353548708456093, 0.02156372108352126
+INFO:__main__:Evaluation time:15.413626909255981
+INFO:__main__:Negative sampling time: 1.115325689315796s
+INFO:__main__:Epoch 261 [1.5 s]  loss=93.9079
+INFO:__main__:Negative sampling time: 1.115018606185913s
+INFO:__main__:Epoch 262 [1.5 s]  loss=93.3205
+INFO:__main__:Negative sampling time: 1.1123900413513184s
+INFO:__main__:Epoch 263 [1.4 s]  loss=89.6045
+INFO:__main__:Negative sampling time: 1.1150047779083252s
+INFO:__main__:Epoch 264 [1.4 s]  loss=91.9790
+INFO:__main__:Negative sampling time: 1.1162796020507812s
+INFO:__main__:Epoch 265 [1.5 s]  loss=93.9308
+INFO:__main__:Negative sampling time: 1.099764347076416s
+INFO:__main__:Epoch 266 [1.4 s]  loss=91.1231
+INFO:__main__:Negative sampling time: 1.1074879169464111s
+INFO:__main__:Epoch 267 [1.4 s]  loss=90.4828
+INFO:__main__:Negative sampling time: 1.1161389350891113s
+INFO:__main__:Epoch 268 [1.5 s]  loss=92.8189
+INFO:__main__:Negative sampling time: 1.1416096687316895s
+INFO:__main__:Epoch 269 [1.5 s]  loss=91.6732
+INFO:__main__:Negative sampling time: 1.1201362609863281s
+INFO:__main__:Epoch 270 [1.4 s]  loss=92.3821
+INFO:__main__:Negative sampling time: 1.1057116985321045s
+INFO:__main__:Epoch 271 [1.4 s]  loss=89.8554
+INFO:__main__:Negative sampling time: 1.1076536178588867s
+INFO:__main__:Epoch 272 [1.4 s]  loss=92.0006
+INFO:__main__:Negative sampling time: 1.117400884628296s
+INFO:__main__:Epoch 273 [1.4 s]  loss=90.8937
+INFO:__main__:Negative sampling time: 1.0991814136505127s
+INFO:__main__:Epoch 274 [1.5 s]  loss=90.6393
+INFO:__main__:Negative sampling time: 1.1053493022918701s
+INFO:__main__:Epoch 275 [1.4 s]  loss=90.2588
+INFO:__main__:Negative sampling time: 1.0986032485961914s
+INFO:__main__:Epoch 276 [1.4 s]  loss=93.2165
+INFO:__main__:Negative sampling time: 1.1068336963653564s
+INFO:__main__:Epoch 277 [1.4 s]  loss=88.2067
+INFO:__main__:Negative sampling time: 1.099700689315796s
+INFO:__main__:Epoch 278 [1.4 s]  loss=94.2975
+INFO:__main__:Negative sampling time: 1.1007544994354248s
+INFO:__main__:Epoch 279 [1.4 s]  loss=90.2068
+INFO:__main__:Negative sampling time: 1.0956153869628906s
+INFO:__main__:Epoch 280 [1.4 s]  loss=86.8610
+INFO:__main__:0.028794276331221197, 0.02294159042927568, 0.019958558135897354, 0.017824888576121117
+INFO:__main__:0.03322885124337827, 0.05152376603201478, 0.06567501949095188, 0.0772331973324228
+INFO:__main__:0.022107116793077385, 0.023114656692078836, 0.024187172078485013, 0.02495695706183229
+INFO:__main__:0.031173747261309216, 0.026270908234490655, 0.023518258438249288, 0.021494977675673183
+INFO:__main__:Evaluation time:15.411716938018799
+INFO:__main__:Negative sampling time: 1.0954391956329346s
+INFO:__main__:Epoch 281 [1.4 s]  loss=87.4572
+INFO:__main__:Negative sampling time: 1.1079730987548828s
+INFO:__main__:Epoch 282 [1.5 s]  loss=89.9470
+INFO:__main__:Negative sampling time: 1.1290926933288574s
+INFO:__main__:Epoch 283 [1.5 s]  loss=89.4214
+INFO:__main__:Negative sampling time: 1.1016039848327637s
+INFO:__main__:Epoch 284 [1.4 s]  loss=87.8403
+INFO:__main__:Negative sampling time: 1.1227178573608398s
+INFO:__main__:Epoch 285 [1.5 s]  loss=89.8104
+INFO:__main__:Negative sampling time: 1.0986382961273193s
+INFO:__main__:Epoch 286 [1.4 s]  loss=91.4292
+INFO:__main__:Negative sampling time: 1.1054530143737793s
+INFO:__main__:Epoch 287 [1.4 s]  loss=88.3717
+INFO:__main__:Negative sampling time: 1.1005687713623047s
+INFO:__main__:Epoch 288 [1.4 s]  loss=88.4998
+INFO:__main__:Negative sampling time: 1.1008124351501465s
+INFO:__main__:Epoch 289 [1.4 s]  loss=88.7367
+INFO:__main__:Negative sampling time: 1.0980935096740723s
+INFO:__main__:Epoch 290 [1.4 s]  loss=86.6335
+INFO:__main__:Negative sampling time: 1.104846477508545s
+INFO:__main__:Epoch 291 [1.4 s]  loss=88.7509
+INFO:__main__:Negative sampling time: 1.1496524810791016s
+INFO:__main__:Epoch 292 [1.5 s]  loss=87.6223
+INFO:__main__:Negative sampling time: 1.107372760772705s
+INFO:__main__:Epoch 293 [1.4 s]  loss=89.0087
+INFO:__main__:Negative sampling time: 1.134376049041748s
+INFO:__main__:Epoch 294 [1.5 s]  loss=85.4092
+INFO:__main__:Negative sampling time: 1.0973305702209473s
+INFO:__main__:Epoch 295 [1.4 s]  loss=88.0634
+INFO:__main__:Negative sampling time: 1.1367061138153076s
+INFO:__main__:Epoch 296 [1.5 s]  loss=87.8404
+INFO:__main__:Negative sampling time: 1.097663402557373s
+INFO:__main__:Epoch 297 [1.4 s]  loss=87.1480
+INFO:__main__:Negative sampling time: 1.0965778827667236s
+INFO:__main__:Epoch 298 [1.4 s]  loss=90.8610
+INFO:__main__:Negative sampling time: 1.0948071479797363s
+INFO:__main__:Epoch 299 [1.4 s]  loss=88.3813
+INFO:__main__:Negative sampling time: 1.0985631942749023s
+INFO:__main__:Epoch 300 [1.4 s]  loss=86.9747
+INFO:__main__:0.02838376730002254, 0.022882946281961556, 0.01980999296270165, 0.017789702087732645
+INFO:__main__:0.032592640038489724, 0.05099507382163339, 0.06506814795431057, 0.07726324357408064
+INFO:__main__:0.02246377094899262, 0.023395490108450743, 0.024431676155244803, 0.025251888658528645
+INFO:__main__:0.03134019973965336, 0.026493016949242474, 0.023614002774416, 0.021624531078371773
+INFO:__main__:Evaluation time:15.467427730560303
+INFO:__main__:
+
+INFO:__main__:
