@@ -1,6 +1,10 @@
+'''
+by chen ma
+https://github.com/allenjack/HGN
+'''
+
 import math
 import numpy as np
-
 
 def precision_at_k_per_sample(actual, predicted, topk):
     num_hits = 0

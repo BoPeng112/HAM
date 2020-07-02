@@ -1,3 +1,8 @@
+'''
+by chen ma
+https://github.com/allenjack/HGN
+'''
+
 """
 Classes describing datasets of user-item interactions. Instances of these
 are returned by dataset-fetching and dataset-processing functions.
