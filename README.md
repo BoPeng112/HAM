@@ -31,5 +31,5 @@ python run.py --data=CDs --n_iter=300 --L=5 --T=3 --d=400 --model=xHAM --neg_sam
 ```
 
 ## Acknowledgment
-The training framework is heavily built on [HGN](https://github.com/allenjack/HGN). Thanks for the amazing work!
+The training framework is primarily built on [HGN](https://github.com/allenjack/HGN). Thanks for the great work!
 
