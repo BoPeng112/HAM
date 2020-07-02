@@ -32,7 +32,6 @@ if __name__ == '__main__':
     parser.add_argument('--neg_samples', type=int, default=3)
     parser.add_argument('--order', type=int, default=2)
     parser.add_argument('--sets_of_neg_samples', type=int, default=50)
-    parser.add_argument('--abla', type=str, default='no')
 
     # model dependent arguments
     parser.add_argument('--model', type=str, default='xHAM')
