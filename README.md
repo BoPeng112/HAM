@@ -23,7 +23,7 @@ Please refer to our paper for the details of datasets and the preprocessing proc
 we upload the CDs and ML-1M datasets for the seek of reproducibility.
 Please feel free to contact me if you need more preprocessed data.
 
-##Example
+## Example
 Please refer to the following example on how to train and evaluate the model (you are recommended to run the code using GPUs).
 
 ```
