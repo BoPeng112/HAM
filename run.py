@@ -16,9 +16,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # data arguments
-    parser.add_argument('--L', type=int, default=5)
-    parser.add_argument('--T', type=int, default=3)
-    parser.add_argument('--P', type=int, default=1)
+    parser.add_argument('--L', type=int, default=5, 
+                       help="the number of items in high-order associations")
+    parser.add_argument('--T', type=int, default=3, 
+                       help="the number of items used to calculate the recommendation error in training")
+    parser.add_argument('--P', type=int, default=1, 
+                       help="the number of items in low-order associations")
     parser.add_argument('--data', type=str, default='CDs')
 
     # train arguments
@@ -30,7 +33,8 @@ if __name__ == '__main__':
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--l2', type=float, default=1e-3)
     parser.add_argument('--neg_samples', type=int, default=3)
-    parser.add_argument('--order', type=int, default=2)
+    parser.add_argument('--order', type=int, default=2, 
+                       help="the order of the item synergies")
     parser.add_argument('--sets_of_neg_samples', type=int, default=50)
 
     # model dependent arguments

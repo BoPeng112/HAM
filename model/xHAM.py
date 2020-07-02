@@ -9,7 +9,6 @@ class Model(nn.Module):
         super(Model, self).__init__()
 
         self.args = model_args
-        self.abla = self.args.abla
 
         # init args
         L = self.args.L
