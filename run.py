@@ -7,12 +7,10 @@ import logging
 from time import time
 import datetime
 import torch
-import pdb
 import pickle
 
 if __name__ == '__main__':
 
-    #FIXME single config function 
     parser = argparse.ArgumentParser()
 
     # data arguments
@@ -51,7 +49,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     logger = logging.getLogger(__name__)
 
-    #FIXME input file
     if config.data == 'CDs':
         from data import Amazon
         data_set = Amazon.CDs()
@@ -100,7 +97,6 @@ if __name__ == '__main__':
     logger.info(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     logger.info(config)
 
-    #FIXME comments
     if config.isTrain:
         train_model(train, val_set, config, logger)
     else:
